@@ -38,4 +38,4 @@ func _on_Timer_timeout():
 		var bullet = Enemy_Bullet.instance()
 		bullet.position = position
 		bullet.rotation = direction
-		Bullets.add_child(bullet)
+		Bullets.add_child(bullet) 
